@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Modern Weather</title>
+  </head>
+  <body>
+
+    <div class="container">
+      
+
+      <div class="parte-1">
+        
+        <div class="parte-temp">
+          <h1 id="temperatura"></h1>
+          <div id="statusIco">
+          </div>
+        </div>
+
+        <div class="parte-local">
+          <h2 id="local"></h2>
+          <span id="statusDia"></span>
+          <br>
+          <span id="max"></span> <span id="min"></span>
+        </div>
+        
+      </div>
+
+      <div class="parte-2 ">
+
+        <div class="proximas-horas">
+
+          <div>
+            <p>8 AM</p>
+            <span id="8hr"></span>
+          </div>
+
+          <div>
+            <p>12 PM</p>
+            <span id="12h"></span>
+          </div>
+
+          <div>
+            <p>16 PM</p>
+            <span id="16h"></span>
+          </div>
+
+          <div>
+            <p>20 PM</p>
+            <span id="20h"></span>
+          </div>
+
+          <div>
+            <p>00 PM</p>
+            <span id="00h"></span>
+          </div>
+          
+        </div>
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+    <input type="text" id="buscarCidade" placeholder="Busque por uma cidade">
+    <script src="script.js"></script>
+
+  </body>
+</html>
